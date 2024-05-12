@@ -1,0 +1,227 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+a {
+    color: #ffd700;
+}
+
+/* DISEÑO NAVBAR */
+
+.navbar {
+    background-color: #1a1a1a;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-btn {
+    background-color: #444;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-btn.active {
+    color: #ffd700;
+    border-color: #ffd700;
+}
+
+.nav-btn:hover {
+    background-color: #8f8746;
+    color: #ddd;
+    border-color: #ddd;
+}
+
+
+/* DISEÑO PAGINA DE INICIO INDEX.HTML */
+.inicio-container {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a1a; /* Negro */
+    color: #fff; /* Blanco */
+    max-width: 800px;
+    margin: 50px auto; /* Centra el contenido y agrega margen superior e inferior */
+    text-align: center;
+}
+
+.inicio-container h1 {
+    font-size: 4rem;
+    border: 2px solid #eadc78;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-image: url('banner-header.png');
+    background-size: cover;
+    background-position: center;
+    color: #ffe200; /* Amarillo */
+}
+
+.inicio-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.inicio-container .btn {
+    background-color: #ffd700; /* Amarillo */
+    color: #000; /* Negro */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 20px; /* Redondea las esquinas de los botones */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.inicio-container .btn:hover {
+    background-color: #444; /* Gris oscuro */
+}
+
+.imagen-banner {
+    width: 800px;
+    height: auto;
+}
+
+/* DISEÑO MURALES.HTML */
+
+.murales-container {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a1a; /* Negro */
+    color: #fff; /* Blanco */
+    max-width: 800px;
+    margin: 50px auto; /* Centra el contenido y agrega margen superior e inferior */
+    text-align: center;
+}
+
+.murales-container h1 {
+    font-size: 7rem;
+    border: 2px solid #eadc78;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-image: url('banner-header.png');
+    background-size: cover;
+    background-position: center;
+    color: #ffe200; /* Amarillo */
+}
+
+.murales-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.murales-container .btn {
+    background-color: #ffd700; /* Amarillo */
+    color: #000; /* Negro */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 20px; /* Redondea las esquinas de los botones */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.murales-container .btn:hover {
+    background-color: #444; /* Gris oscuro */
+}
+
+.mural-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+/* DISEÑO PAGINA DE CONTACTO.HTML */
+.contacto-container {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a1a; /* Negro */
+    color: #fff; /* Blanco */
+    max-width: 800px;
+    margin: 50px auto; /* Centra el contenido y agrega margen superior e inferior */
+    text-align: center;
+}
+
+.contacto-container h1 {
+    font-size: 4rem;
+    border: 2px solid #eadc78;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-image: url('banner-header.png');
+    background-size: cover;
+    background-position: center;
+    color: #ffe200; /* Amarillo */
+}
+
+.contacto-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ffd700; /* Amarillo */
+    background-color: #1a1a1a; /* Negro */
+    color: #fff; /* Blanco */
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.contact-form select {
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #444;
+}
+
+.contacto-container .btn {
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contacto-container .btn:hover {
+    background-color: #444;
+}
+
+.imagen-contacto {
+    width: 600px;
+    height: auto;
+}

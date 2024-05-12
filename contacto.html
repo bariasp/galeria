@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="contacto-container">
+<header>
+    <h1>Contacto</h1>
+    <nav class="navbar">
+        <button class="nav-btn" onclick="window.location.href='index.html'">Inicio</button>
+        <button class="nav-btn" onclick="window.location.href='murales.html'">Murales</button>
+        <button class="nav-btn active" onclick="window.location.href='contacto.html'">Contacto</button>
+    </nav>
+</header>
+<main>
+    <div class="container">
+        <h2>Formulario de Contacto</h2>
+        <p>A continuación encontrarás un formulario de contacto, con el fin de mantener las relaciones cercanas con nuestros clientes y amigos del arte Hip Hop</p>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="correo" placeholder="Correo electrónico" required>
+                <select name="tipo_solicitud" required>
+                    <option value="" disabled selected>Seleccione el tipo de solicitud</option>
+                    <option value="CONSULTA">Consulta</option>
+                    <option value="QUEJA">Queja</option>
+                    <option value="SUGERENCIA">Sugerencia</option>
+                    <option value="COMPRA">Sugerencia</option>
+                </select>
+                <textarea name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</main>
+
+    <img src="BANNER.png" alt="Banner final" class="imagen-contacto">
+
+</div>
+<footer>
+    <p class="text-center">BARIASP © 2024. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>
